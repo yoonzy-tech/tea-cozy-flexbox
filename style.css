@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 10px 0px;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1em
+}
+h5 {
+    font-size: 0.83em
+}
+/* Menu Bar */
+header {
+    height: 69px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+.logo {
+    margin-left: 10px;
+    height: 50px;
+    margin-right: auto;
+
+}
+.nav-links li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+/* Banner Section */
+.banner {
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+.banner img {
+    height: 700px;
+    width: 100%;
+    object-fit: none;
+}
+.our-mission {
+    text-align: center;
+    position: absolute;
+    width: 1200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Tea Section */
+.tea-section {
+    display: block;
+}
+.tea-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tea-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+}
+.tea-container img {
+    display: block;
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+.tea-section ::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+/* Location Section */
+.location-section {
+    position: relative;
+}
+.location-section img {
+    height: 580px;
+    width: 100%;
+    object-fit: none;
+    object-position: center top;
+    position: relative; 
+}
+.location-body {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.location-body h2 {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+.branch-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+}
+.branch {
+    width: 300px;
+    height: 250px;
+    margin: 0 40px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.branch h4 {
+    font-size: 22px;
+    font-weight: normal;
+    padding: 0;
+    text-align: center;
+    flex: 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.branch .bold {
+    font-weight: bold;
+}
+/* Footer Section */
+.location ::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.company-info {
+    height: 200px;
+}
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}
